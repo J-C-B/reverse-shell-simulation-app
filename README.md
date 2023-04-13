@@ -60,9 +60,9 @@ At this point your task should be starting up.
 1. Install `npm` and `nodejs` with `apt-get` or `yum`
 2. `git clone https://github.com/lacework-community/reverse-shell-simulation-app.git reverse-shell-simulation-app`
 3. `cd reverse-shell-simulation-app/app`
-4. `node server.js &`
-5. `disown`
-6. At this point you can access the app from http://<public_ip>:8080/ntg-frontend.html
+4. `npm install`
+5. `node server.js & disown`
+7. At this point you can access the app from http://<public_ip>:8080/ntg-frontend.html
 
 ### Other container platforms
 
